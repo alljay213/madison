@@ -27,7 +27,7 @@ export default function Heart() {
           repeat: Infinity,
           ease: "easeInOut",
         }}
-        transformOrigin="center"
+        style={{ transformOrigin: "50% 50%" }}
       />
     </motion.svg>
   );

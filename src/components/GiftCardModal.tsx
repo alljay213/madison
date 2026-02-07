@@ -38,10 +38,10 @@ export default function GiftCardModal({ isOpen, onClose }: Props) {
 
               <div className="bg-white p-4 rounded-xl">
                 <img
-                  src="/starbucks.jpg"
+                  src={`${import.meta.env.BASE_URL}starbucks.jpg`}
                   alt="Starbucks gift card barcode"
-                  style={{ width: "384px" }} // exact integer px
-                  className="mx-auto rounded-xl shadow"
+                  style={{ width: "384px" }}
+                  className="mx-auto"
                 />
               </div>
 
